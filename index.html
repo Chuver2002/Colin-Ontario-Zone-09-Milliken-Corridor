@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zone 9: Milliken Corridor — Ontario Industrial Zone Report</title>
+<meta name="description" content="Industrial zone report for Milliken Corridor, Ontario, CA: 56 buildings (20k–125k SF), map, Inland Empire West market snapshot and recent activity.">
+<meta property="og:title" content="Zone 9: Milliken Corridor — Ontario Industrial Zone Report">
+<meta property="og:description" content="Industrial zone report for Milliken Corridor, Ontario, CA: 56 buildings (20k–125k SF), map, Inland Empire West market snapshot and recent activity.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3E%3Crect x=%271%27 y=%271%27 width=%2714%27 height=%2714%27 rx=%273%27 fill=%27%231d6fb8%27/%3E%3C/svg%3E">
+<style>
+:root{color-scheme:light;--zc:#1d6fb8;--surface:#fbfaf7;--card:#fff;--ink:#121212;--ink2:#4f4e4a;--muted:#8a8984;--line:#e6e4de;--land:#f3f2ed;--road:#d3d1ca;--fwy:#a19e96}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--surface);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+header.top{border-bottom:1px solid var(--line);background:#fff}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
+.brand{font-weight:700;font-size:14px;letter-spacing:.2px}
+.brand span{color:var(--muted);font-weight:500}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:#fff;text-decoration:none;border-radius:8px;padding:10px 16px;font-size:14px;font-weight:600;border:0}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.hero{padding:44px 0 26px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:var(--ink2);text-transform:uppercase;letter-spacing:.8px}
+.eyebrow i{width:12px;height:12px;border-radius:3px;background:var(--zc);display:inline-block}
+h1{font-size:clamp(30px,4.6vw,46px);line-height:1.1;margin:12px 0 12px;letter-spacing:-.5px}
+.lede{font-size:18px;color:var(--ink2);max-width:760px;margin:0}
+.meta{margin-top:14px;font-size:13px;color:var(--muted)}
+section{padding:26px 0}
+h2{font-size:22px;margin:0 0 14px;letter-spacing:-.2px}
+h3{font-size:15px;margin:0 0 8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px}
+.mapcard{overflow:hidden;position:relative}
+#map{display:block;width:100%;height:520px;background:var(--land);touch-action:none;cursor:grab}
+@media(max-width:700px){#map{height:420px}}
+.mapnote{display:flex;gap:18px;flex-wrap:wrap;padding:12px 16px;border-top:1px solid var(--line);font-size:13px;color:var(--ink2)}
+.mapnote span{display:inline-flex;align-items:center;gap:6px}
+.zoom{position:absolute;right:12px;top:12px;display:flex;flex-direction:column;gap:4px}
+.zoom button{width:34px;height:34px;border-radius:8px;border:1px solid var(--line);background:#fff;font-size:17px;cursor:pointer}
+.tip{position:absolute;pointer-events:none;background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px 10px;box-shadow:0 6px 18px rgba(0,0,0,.12);font-size:13px;max-width:260px;display:none;z-index:4;line-height:1.4}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+@media(max-width:820px){.grid2{grid-template-columns:1fr}.grid4{grid-template-columns:1fr 1fr}}
+.tile{padding:16px}
+.tile .v{font-size:28px;font-weight:700;letter-spacing:-.5px;font-variant-numeric:tabular-nums}
+.tile .l{font-size:13px;color:var(--ink2);margin-top:2px}
+.tile .s{font-size:12px;color:var(--muted);margin-top:6px}
+.pad{padding:18px 20px}
+.kv{display:grid;grid-template-columns:110px 1fr;gap:6px 12px;font-size:14px}
+.kv dt{color:var(--muted)}
+.kv dd{margin:0}
+.bars{margin-top:6px}
+.bar{display:grid;grid-template-columns:96px 1fr 42px;align-items:center;gap:10px;font-size:13px;margin:6px 0}
+.bar .t{height:10px;background:#efede7;border-radius:5px;overflow:hidden}
+.bar .t b{display:block;height:100%;background:var(--zc);border-radius:5px}
+.bar .n{text-align:right;color:var(--ink2);font-variant-numeric:tabular-nums}
+ul.clean{list-style:none;padding:0;margin:0}
+.act li{padding:14px 0;border-top:1px solid var(--line)}
+.act li:first-child{border-top:0;padding-top:0}
+.tag{display:inline-block;font-size:12px;font-weight:600;color:var(--ink2);background:#f1efe9;border-radius:6px;padding:2px 8px;margin-bottom:6px}
+.src{font-size:12px;color:var(--muted)}
+.src a{color:var(--muted)}
+.tips li{position:relative;padding-left:20px;margin:10px 0;font-size:15px}
+.tips li:before{content:"";position:absolute;left:0;top:9px;width:8px;height:8px;border-radius:2px;background:var(--zc)}
+.notes li{font-size:14px;color:var(--ink2);margin:8px 0}
+.cta{background:#151515;color:#fff;border-radius:16px;padding:28px;display:grid;grid-template-columns:1.3fr 1fr;gap:20px;align-items:center}
+@media(max-width:820px){.cta{grid-template-columns:1fr}}
+.cta h2{color:#fff;font-size:24px}
+.cta p{color:#cfcfcf;margin:0 0 6px}
+.cta .who{font-size:15px;line-height:1.6;color:#e9e9e9}
+.cta .who b{font-size:17px;color:#fff}
+.cta .acts{display:flex;flex-direction:column;gap:10px}
+.cta .btn{background:#fff;color:#111;justify-content:center}
+.cta .btn.ghost{background:transparent;color:#fff;border-color:#444}
+footer{padding:26px 0 40px;font-size:12px;color:var(--muted)}
+footer p{margin:6px 0}
+.roadlbl{font-size:10px;fill:#7b7972;paint-order:stroke;stroke:var(--land);stroke-width:3px;stroke-linejoin:round;pointer-events:none}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">Colin Huver <span>· Foremost Commercial Real Estate Services</span></div>
+  <a class="btn" href="#contact">Talk about this zone</a>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <div class="eyebrow"><i></i>Ontario Industrial · Zone 9 of 12</div>
+    <h1>Milliken Corridor</h1>
+    <p class="lede">Milliken Ave from SR-60 north to Mission Blvd, with the Wanamaker, Rockefeller, Wall, Vanderbilt and Auto Center Dr business parks on either side.</p>
+    <div class="meta">Zone report · Updated November 2026 · Market data through Q3 2026</div>
+  </div>
+
+  <section>
+    <div class="card mapcard">
+      <svg id="map" aria-label="Map of Zone 9"></svg>
+      <div class="zoom"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button></div>
+      <div class="tip" id="tip"></div>
+      <div class="mapnote">
+        <span><svg width="12" height="12"><circle cx="6" cy="6" r="5" fill="#1d6fb8"/></svg>Industrial buildings in this zone (dot size = building SF)</span>
+        <span><svg width="12" height="12"><circle cx="6" cy="6" r="4" fill="#c9c7c0"/></svg>Neighboring zones</span>
+        <span>Drag to pan · scroll or +/− to zoom · tap a dot for the address</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="grid2">
+    <div class="card pad">
+      <h2>Zone profile</h2>
+      <dl class="kv">
+        <dt>Buildings</dt><dd>56 industrial buildings, 20,000–125,000 SF</dd>
+        <dt>Total space</dt><dd>2,577,268 SF (median building 38,518 SF)</dd>
+        <dt>Boundaries</dt><dd>West: Doubleday / Dupont Ave · East: Wineville Ave · North: Wall St (≈ Mission) · South: SR-60 (2440 S Milliken)</dd>
+        <dt>Main streets</dt><dd>935–2440 S Milliken Ave; 1100–1311 S Wanamaker Ave; 4920–4990 Vanderbilt St; 1260–1505 S Dupont Ave; 4142–4245 Pacific Privado; 1040–1140 S Rockefeller Ave</dd>
+      </dl>
+    </div>
+    <div class="card pad">
+      <h2>Building size mix</h2>
+      <div class="bars"><div class="bar"><span>20–40k SF</span><span class="t"><b style="width:100%"></b></span><span class="n">27</span></div><div class="bar"><span>40–60k SF</span><span class="t"><b style="width:37%"></b></span><span class="n">10</span></div><div class="bar"><span>60–80k SF</span><span class="t"><b style="width:30%"></b></span><span class="n">8</span></div><div class="bar"><span>80–125k SF</span><span class="t"><b style="width:26%"></b></span><span class="n">7</span></div><p class="src">4 building(s) without a size on file.</p></div>
+      <p class="src" style="margin-top:12px">Count of buildings in this zone by size range.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Inland Empire West market snapshot</h2>
+    <div class="grid4"><div class="card tile"><div class="v">4.8%</div><div class="l">IE West vacancy, Q3 2026</div><div class="s">Down from 5.16% in Q2 and 6.09% in Q1 · <a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target="_blank" rel="noopener">Lee & Associates</a></div></div><div class="card tile"><div class="v">$1.03</div><div class="l">Avg. asking rent, $/SF/mo NNN</div><div class="s">$12.41/SF/yr in IE West; $12.76 a year earlier · <a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target="_blank" rel="noopener">Lee & Associates</a></div></div><div class="card tile"><div class="v">3.9M SF</div><div class="l">12-month net absorption, IE West</div><div class="s">Up from 2.6M SF in Q2 · <a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target="_blank" rel="noopener">Lee & Associates</a></div></div><div class="card tile"><div class="v">$246/SF</div><div class="l">Avg. sale price, IE West</div><div class="s">Down from $277/SF in Q1 2026 · <a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target="_blank" rel="noopener">Lee & Associates</a></div></div></div>
+    <div class="card pad" style="margin-top:14px">
+      <ul class="clean notes"><li>Other trackers put IE West vacancy at 5.9% (CBRE) and 6.5% (Cushman &amp; Wakefield); each firm measures a slightly different building set, but all three show vacancy flat-to-falling in Q3. <span class="src">(<a href="https://www.cbre.com/insights/figures/inland-empire-industrial-figures-q3-2026" target=_blank rel=noopener>CBRE</a>, <a href="https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/inland-empire-marketbeats/industrial" target=_blank rel=noopener>Cushman & Wakefield</a>)</span></li><li>Across the wider Inland Empire, asking rents are down about 10% year over year, to roughly $1.01/SF/mo NNN. <span class="src">(<a href="https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/inland-empire-marketbeats/industrial" target=_blank rel=noopener>Cushman & Wakefield</a>)</span></li><li>Tenants still hold leverage through flexible lease terms and concessions, even as fundamentals improve. <span class="src">(<a href="https://kidder.com/market-reports/inland-empire-industrial-market-report" target=_blank rel=noopener>Kidder Mathews</a>)</span></li><li>5.8M SF was under construction in IE West at the end of Q3, up from 2.6M SF in Q1, so new supply is picking back up. <span class="src">(<a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target=_blank rel=noopener>Lee & Associates</a>)</span></li></ul>
+    </div>
+  </section>
+
+  <section class="grid2">
+    <div class="card pad">
+      <h2>Recent activity in and near this zone</h2>
+      <ul class="clean act"><li><span class="tag">For lease or sale</span><div>1001 Doubleday Ave — 406,345 SF, 32&#x27; clear, 35 docks, in a Foreign Trade Zone; ESFR upgrade underway.</div><div class="src">Source: <a href="https://www.crexi.com/properties/2490992/california-1001-doubleday-avenue" target="_blank" rel="noopener">Crexi listing</a></div></li><li><span class="tag">IOS listing</span><div>1260 S Dupont Ave — about 27,801 SF on 4.64 acres.</div><div class="src">Source: <a href="https://www.loopnet.ca/Listing/1260-S-Dupont-Ave-Ontario-CA/39715323" target="_blank" rel="noopener">LoopNet listing</a></div></li></ul>
+      <p class="src" style="margin-top:12px">From public news and public listings. Availability changes quickly. Ask for the current list.</p>
+    </div>
+    <div class="card pad">
+      <h2>Notable IE West deals, Q3 2026</h2>
+      <ul class="clean act"><li><span class="tag">Top IE West lease, Q3 2026</span><div>573,000 SF at 9333 Hermosa Ave, Rancho Cucamonga (Logistics Services, Inc.)</div><div class="src">Source: <a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target="_blank" rel="noopener">Lee & Associates, Q3 2026 Inland Empire West Industrial Market Overview</a></div></li><li><span class="tag">Top Ontario sale, Q3 2026</span><div>612,083 SF at 2825 E Jurupa St sold for $143.9M ($235/SF)</div><div class="src">Source: <a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target="_blank" rel="noopener">Lee & Associates, Q3 2026 Inland Empire West Industrial Market Overview</a></div></li><li><span class="tag">Largest capital move</span><div>EQT Real Estate bought a 5.2M SF Rexford industrial portfolio for $1.2B in September</div><div class="src">Source: <a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target="_blank" rel="noopener">Lee & Associates, Q3 2026 Inland Empire West Industrial Market Overview</a></div></li></ul>
+    </div>
+  </section>
+
+  <section class="grid2">
+    <div class="card pad">
+      <h2>If you lease space here</h2>
+      <ul class="clean tips"><li>Start 12–18 months before expiration. For 20k–125k SF, the best options often trade before they hit the open market.</li><li>Rents are down about 10% from a year ago, so renewals are a negotiation, not a formality. Benchmark your current rate before your landlord sends terms.</li><li>Concessions are back: free rent, improvement allowances and flexible terms are on the table, especially in buildings that have sat vacant.</li><li>Price a relocation even if you plan to stay. A credible alternative is the strongest renewal leverage you have.</li></ul>
+    </div>
+    <div class="card pad">
+      <h2>If you own a building here</h2>
+      <ul class="clean tips"><li>Vacancy in IE West is falling (6.1% → 4.8% this year per Lee &amp; Associates), so well-located 20k–125k SF buildings are leasing again.</li><li>Sale pricing has softened to about $246/SF on average, while recent Ontario trades show strong buyers for quality and yard-heavy (IOS) sites.</li><li>Renewing a tenant early usually beats downtime plus free rent. Know your tenant&#x27;s expiration and talk 12+ months out.</li><li>New supply is picking up (5.8M SF under construction), so positioning matters: power, yard, clear height and loading set the rent.</li></ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="cta">
+      <div>
+        <h2>Questions about your building or lease in Zone 9?</h2>
+        <p>I can share current availabilities, recent rent and sale comps for your size range, and what your space is worth today. No cost, no obligation.</p>
+        <div class="who" style="margin-top:14px"><b>Colin Huver</b><br>Broker Associate · Foremost Commercial Real Estate Services<br>1614 E. Holt Blvd., Suite 100, Ontario, CA 91761<br>DRE #02196649</div>
+      </div>
+      <div class="acts">
+        <a class="btn" href="tel:+19098153281">Call (909) 815-3281</a>
+        <a class="btn ghost" href="mailto:c.huver@foremost-cre.com?subject=Zone%209%20%E2%80%94%20Milliken%20Corridor">Email c.huver@foremost-cre.com</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">
+  <p><b>Sources:</b> <a href="https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Inland-Empire-West-CA-Industrial.pdf" target="_blank" rel="noopener">Lee &amp; Associates, Q3 2026 Inland Empire West Industrial Market Overview</a> · <a href="https://www.cbre.com/insights/figures/inland-empire-industrial-figures-q3-2026" target="_blank" rel="noopener">CBRE, Inland Empire Industrial Figures Q3 2026</a> · <a href="https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/inland-empire-marketbeats/industrial" target="_blank" rel="noopener">Cushman &amp; Wakefield, Inland Empire Industrial MarketBeat Q3 2026</a> · <a href="https://kidder.com/market-reports/inland-empire-industrial-market-report" target="_blank" rel="noopener">Kidder Mathews, Inland Empire Industrial Market Report Q3 2026</a></p>
+  <p>Market figures are from the cited public research reports. Activity items come from public news and listing sites; listing status can change after publication. Building locations and sizes are approximate. Information is believed reliable but not guaranteed. This is not an offer to lease or sell. Colin Huver, Foremost Commercial Real Estate Services, DRE #02196649.</p>
+</div></footer>
+
+<script type="application/json" id="d">{"zone":[{"addr":"1390 S Milliken Ave","sf":30176,"lon":-117.55832,"lat":34.04837,"x":"between Jurupa St & Pacific Privado"},{"addr":"1300 S Milliken Ave","sf":36477,"lon":-117.55831,"lat":34.04999,"x":"between Pacific Privado & Lowell St"},{"addr":"4142 Pacific Privado","sf":38336,"lon":-117.55853,"lat":34.04987,"x":"near Milliken Ave"},{"addr":"4245 Pacific Privado","sf":30596,"lon":-117.55878,"lat":34.04999,"x":"near Milliken Ave"},{"addr":"4250 E Lowell St","sf":31880,"lon":-117.56031,"lat":34.05179,"x":"between Dupont Ave & Milliken Ave"},{"addr":"4280 E Lowell St","sf":24048,"lon":-117.55988,"lat":34.05179,"x":"between Milliken Ave & Dupont Ave"},{"addr":"Milliken Ave","sf":0,"lon":-117.559,"lat":34.047,"x":"approximate location"},{"addr":"Milliken Ave","sf":0,"lon":-117.559,"lat":34.0465,"x":"approximate location"},{"addr":"Milliken Ave","sf":0,"lon":-117.559,"lat":34.046,"x":"approximate location"},{"addr":"Milliken Bldg 1","sf":61214,"lon":-117.5595,"lat":34.0455,"x":"approximate location"},{"addr":"Milliken Bldg 2","sf":52418,"lon":-117.5595,"lat":34.045,"x":"approximate location"},{"addr":"935 S Milliken Ave","sf":64035,"lon":-117.55813,"lat":34.05483,"x":"between Santa Ana St & Lowell St"},{"addr":"1140 S Rockefeller Ave","sf":50221,"lon":-117.55471,"lat":34.05244,"x":"between Lowell St & Wall St"},{"addr":"1040 S Rockefeller Ave","sf":49367,"lon":-117.55472,"lat":34.0534,"x":"between Wall St & Lowell St"},{"addr":"4495 E Wall St","sf":106685,"lon":-117.55359,"lat":34.05391,"x":"between Rockefeller Ave & Wanamaker Ave"},{"addr":"4500 E Wall St","sf":87385,"lon":-117.55237,"lat":34.05374,"x":"between Rockefeller Ave & Wanamaker Ave"},{"addr":"1100 S Wanamaker Ave","sf":55813,"lon":-117.55032,"lat":34.05314,"x":"between Wall St & Rockefeller Ave"},{"addr":"1200 Wanamaker Ave","sf":45202,"lon":-117.55123,"lat":34.05152,"x":"between Wall St & Rockefeller Ave"},{"addr":"1309 S Wanamaker Ave","sf":21062,"lon":-117.55201,"lat":34.05081,"x":"between Rockefeller Ave & Wall St"},{"addr":"1311 S Wanamaker Ave","sf":27743,"lon":-117.55203,"lat":34.0508,"x":"between Rockefeller Ave & Wall St"},{"addr":"1510 Auto Center Dr","sf":115212,"lon":-117.54665,"lat":34.04634,"x":"between Vanderbilt St & Jurupa St"},{"addr":"1495 Auto Center Dr","sf":30229,"lon":-117.54655,"lat":34.04611,"x":"between Vanderbilt St & Jurupa St"},{"addr":"4920 Vanderbilt St","sf":20045,"lon":-117.54584,"lat":34.04508,"x":"between Auto Center Dr & Hudson Ave"},{"addr":"4980 SE Vanderbilt St","sf":27101,"lon":-117.54408,"lat":34.04508,"x":"between Hudson Ave & Auto Center Dr"},{"addr":"1501 SE Hudson Ave","sf":29167,"lon":-117.54318,"lat":34.04587,"x":"near Vanderbilt St"},{"addr":"1495 Hudson Ave","sf":32322,"lon":-117.54318,"lat":34.0459,"x":"near Vanderbilt St"},{"addr":"4990 SE Vanderbilt St","sf":38701,"lon":-117.54363,"lat":34.04512,"x":"between Hudson Ave & Auto Center Dr"},{"addr":"2180 S Wineville Ave","sf":81063,"lon":-117.54179,"lat":34.03386,"x":"between Philadelphia St & Francis St"},{"addr":"5001 E Philadelphia St","sf":48230,"lon":-117.54584,"lat":34.03355,"x":"near Burgundy Pl"},{"addr":"4755 E Philadelphia St","sf":57765,"lon":-117.54927,"lat":34.03353,"x":"near Burgundy Pl"},{"addr":"1955 Burgundy Pl","sf":27588,"lon":-117.54955,"lat":34.03759,"x":"near Zinfandel Ct"},{"addr":"4750 Zinfandel Ct","sf":113324,"lon":-117.54917,"lat":34.03777,"x":"near Burgundy Pl"},{"addr":"4755 Zinfandel Ct","sf":110184,"lon":-117.54914,"lat":34.03789,"x":"near Burgundy Pl"},{"addr":"1945 Burgundy Pl","sf":31480,"lon":-117.54955,"lat":34.03776,"x":"near Zinfandel Ct"},{"addr":"1925 Burgundy Ave","sf":26998,"lon":-117.54956,"lat":34.03797,"x":"near Zinfandel Ct"},{"addr":"1920 S Rochester Ave","sf":28215,"lon":-117.5509,"lat":34.03933,"x":"near Francis St"},{"addr":"2440 S Milliken Ave","sf":71850,"lon":-117.55847,"lat":34.03067,"x":"between Mission Blvd & Greystone Dr"},{"addr":"2350 S Milliken Ave","sf":71091,"lon":-117.55848,"lat":34.03168,"x":"between Mission Blvd & Greystone Dr"},{"addr":"2145 S Milliken Ave","sf":24000,"lon":-117.55824,"lat":34.03446,"x":"between Philadelphia St & Francis St"},{"addr":"1890 S Milliken Ave","sf":21505,"lon":-117.55837,"lat":34.03855,"x":"between Francis St & Philadelphia St"},{"addr":"1905 S Milliken Ave","sf":56388,"lon":-117.55823,"lat":34.03869,"x":"between Francis St & Philadelphia St"},{"addr":"1850 S Milliken Ave","sf":27936,"lon":-117.55837,"lat":34.03952,"x":"between Francis St & Philadelphia St"},{"addr":"1840 S Milliken Ave","sf":21505,"lon":-117.55837,"lat":34.03976,"x":"between Francis St & Philadelphia St"},{"addr":"1805 Milliken Ave","sf":27256,"lon":-117.55823,"lat":34.04045,"x":"between Francis St & Philadelphia St"},{"addr":"1800 S Milliken Ave","sf":36901,"lon":-117.55837,"lat":34.04073,"x":"between Francis St & Philadelphia St"},{"addr":"1700 S Milliken Ave","sf":30288,"lon":-117.55835,"lat":34.04152,"x":"between Francis St & Jurupa St"},{"addr":"1690 Milliken Ave","sf":52387,"lon":-117.55835,"lat":34.04178,"x":"between Francis St & Jurupa St"},{"addr":"4400 E Francis St","sf":59271,"lon":-117.55635,"lat":34.04147,"x":"between Milliken Ave & Rochester Ave"},{"addr":"1590 S Milliken Ave","sf":66836,"lon":-117.55834,"lat":34.04364,"x":"between Francis St & Jurupa St"},{"addr":"1550 Milliken Ave","sf":77748,"lon":-117.55834,"lat":34.04439,"x":"between Francis St & Jurupa St"},{"addr":"1500 Milliken Ave","sf":66836,"lon":-117.55833,"lat":34.04532,"x":"between Jurupa St & Francis St"},{"addr":"1505 S Dupont Ave","sf":103491,"lon":-117.5624,"lat":34.04796,"x":"between Jurupa St & Francis St"},{"addr":"1275 S DuPont Ave","sf":0,"lon":-117.56192,"lat":34.05043,"x":"between Doubleday Ave & Lowell St"},{"addr":"1260 S Dupont Ave","sf":27801,"lon":-117.56206,"lat":34.05069,"x":"between Doubleday Ave & Lowell St"},{"addr":"1455 Doubleday Ave","sf":31808,"lon":-117.56398,"lat":34.05027,"x":"between Dupont Ave & Santa Ana St"},{"addr":"1351 Doubleday Ave","sf":72088,"lon":-117.56543,"lat":34.05362,"x":"between Santa Ana St & Dupont Ave"}],"other":[[-117.57729,34.04074],[-117.57582,34.04242],[-117.57573,34.04254],[-117.57016,34.04818],[-117.56617,34.01895],[-117.5662,34.02678],[-117.56492,34.02781],[-117.56449,34.02781],[-117.56385,34.0278],[-117.56385,34.02769],[-117.56343,34.02768],[-117.56343,34.0278],[-117.56135,34.03324],[-117.56894,34.03355],[-117.57352,34.03367],[-117.57382,34.03367],[-117.57741,34.03362],[-117.57594,34.03466],[-117.57594,34.03567],[-117.57595,34.03624],[-117.56184,34.05788],[-117.56197,34.0587],[-117.56175,34.05905],[-117.56183,34.05905],[-117.55962,34.05906],[-117.55852,34.05906],[-117.5581,34.05816],[-117.5581,34.05815],[-117.55825,34.05695],[-117.55825,34.05677],[-117.55785,34.05555],[-117.56005,34.05544],[-117.56023,34.05544],[-117.56187,34.05556],[-117.56211,34.05556],[-117.56186,34.05671],[-117.56357,34.05557],[-117.56541,34.05559],[-117.5654,34.05668],[-117.56539,34.05843],[-117.56538,34.05987],[-117.56292,34.06158],[-117.56284,34.06174],[-117.56185,34.06136],[-117.56122,34.06237],[-117.56091,34.06265],[-117.56068,34.06272],[-117.56042,34.06279],[-117.5581,34.06142],[-117.55715,34.05917],[-117.55463,34.06145],[-117.55449,34.06146],[-117.55429,34.06269],[-117.55448,34.06269],[-117.55448,34.06281],[-117.55526,34.0627],[-117.55545,34.06281],[-117.5581,34.0625],[-117.5581,34.0635],[-117.56592,34.06393],[-117.5661,34.06393],[-117.56628,34.06392],[-117.56645,34.06392],[-117.56663,34.06391],[-117.5668,34.06391],[-117.56698,34.06391],[-117.56749,34.06453],[-117.56914,34.06385],[-117.56906,34.0645],[-117.56749,34.06545],[-117.56749,34.06576],[-117.56785,34.06637],[-117.56843,34.06648],[-117.56896,34.06574],[-117.55455,34.05541],[-117.55517,34.05553],[-117.55468,34.05644],[-117.55465,34.05994],[-117.55464,34.06075],[-117.55354,34.06269],[-117.55215,34.0628],[-117.55098,34.0628],[-117.55052,34.0628],[-117.54972,34.0628],[-117.54956,34.0628],[-117.54973,34.06268],[-117.54974,34.06126],[-117.55111,34.05996],[-117.55109,34.05985],[-117.55086,34.05985],[-117.55049,34.05996],[-117.54989,34.0595],[-117.54973,34.05949],[-117.54976,34.05841],[-117.54991,34.05798],[-117.54977,34.0579],[-117.54978,34.05714],[-117.54978,34.05663],[-117.54993,34.05646],[-117.54979,34.05638],[-117.54993,34.05557],[-117.54994,34.05532],[-117.54994,34.05506],[-117.5498,34.05468],[-117.5468,34.05658],[-117.54669,34.05685],[-117.54648,34.05738],[-117.54638,34.05764],[-117.54629,34.05791],[-117.54509,34.05716],[-117.54474,34.05804],[-117.54444,34.05895],[-117.54441,34.05904],[-117.5443,34.05941],[-117.54398,34.06089],[-117.54638,34.06277],[-117.54686,34.06278],[-117.54744,34.06278],[-117.548,34.06267],[-117.55079,34.06502],[-117.55096,34.06505],[-117.55053,34.06529],[-117.55002,34.06538],[-117.54938,34.06538],[-117.54906,34.06538],[-117.53472,34.06272],[-117.53823,34.06262],[-117.53878,34.06262],[-117.54177,34.06276],[-117.5319,34.05542],[-117.53253,34.05542],[-117.53332,34.05543],[-117.53385,34.05543],[-117.5361,34.05508],[-117.54465,34.05368],[-117.54468,34.0534],[-117.54468,34.05312],[-117.54317,34.04759],[-117.54319,34.04622],[-117.53959,34.04807],[-117.5329,34.04625],[-117.53304,34.04721],[-117.53303,34.04779],[-117.5329,34.04802],[-117.53188,34.04801],[-117.53107,34.04802]],"roads":{"fw":{"I-15":[[[-117.5444,34.0897],[-117.5449,34.0606],[-117.5454,34.0577],[-117.5498,34.0481],[-117.55,34.0335]],[[-117.5504,34.0335],[-117.5505,33.9942]],[[-117.55,34.0335],[-117.5501,33.9933]],[[-117.55,34.0335],[-117.5498,34.0481],[-117.5454,34.0577],[-117.5449,34.0606],[-117.5444,34.0897]],[[-117.5504,34.0335],[-117.5505,33.9942]],[[-117.5447,34.0894],[-117.5452,34.0602],[-117.5502,34.0477],[-117.5504,34.0335]]],"SR-60":[[[-117.5782,34.0296],[-117.5583,34.0239]],[[-117.5583,34.0242],[-117.5407,34.0193],[-117.5347,34.0182]],[[-117.5583,34.0242],[-117.5792,34.03]],[[-117.5583,34.0242],[-117.5407,34.0193],[-117.5347,34.0182]],[[-117.5782,34.0296],[-117.5583,34.0239]],[[-117.5583,34.0239],[-117.5353,34.0179]],[[-117.5583,34.0242],[-117.5792,34.03]]]},"art":{"Francis St":[[[-117.5629,34.041],[-117.5569,34.0416],[-117.5547,34.0409],[-117.5508,34.0409]],[[-117.5417,34.0407],[-117.5243,34.0408]],[[-117.5417,34.0407],[-117.533,34.0408]],[[-117.5629,34.0435],[-117.5728,34.0436],[-117.5748,34.0426],[-117.5815,34.0413]]],"Wineville Ave":[[[-117.5417,34.0335],[-117.5417,34.0407]],[[-117.5409,34.0554],[-117.5412,34.0597],[-117.5405,34.0642],[-117.5411,34.0665]],[[-117.5418,34.0249],[-117.5419,34.0196]]],"Philadelphia St":[[[-117.6507,34.0338],[-117.5691,34.0336],[-117.5678,34.0341],[-117.5671,34.0353],[-117.5583,34.0335]],[[-117.5417,34.0335],[-117.5395,34.0335]]],"Haven Ave":[[[-117.5758,34.0191],[-117.5752,34.0234],[-117.5759,34.0322],[-117.5757,34.0631]],[[-117.5758,34.0191],[-117.5757,33.9893]],[[-117.5757,34.0774],[-117.5757,34.0631]]],"Mission Blvd":[[[-117.6239,34.0542],[-117.5585,34.0323]],[[-117.5244,34.0164],[-117.5519,34.0299],[-117.5584,34.0325]],[[-117.5244,34.0162],[-117.5584,34.0323]]],"Airport Dr":[[[-117.5811,34.0629],[-117.5771,34.0615],[-117.5711,34.0614],[-117.569,34.0604],[-117.5673,34.0612],[-117.5634,34.0615],[-117.5597,34.0628],[-117.5241,34.0622]]],"Santa Ana St":[[[-117.5676,34.0555],[-117.5699,34.0555]],[[-117.5676,34.0555],[-117.5546,34.0555]],[[-117.5409,34.0554],[-117.5241,34.0553]],[[-117.5582,34.0555],[-117.5546,34.0555]]],"Riverside Dr":[[[-117.6081,34.0196],[-117.5583,34.0189]],[[-117.5412,34.0186],[-117.5583,34.0189]]],"Guasti Rd":[[[-117.5799,34.0646],[-117.5758,34.0649]],[[-117.5704,34.0638],[-117.5521,34.0643],[-117.5505,34.0652],[-117.5481,34.0653]]],"Milliken Ave":[[[-117.5581,34.0628],[-117.5583,34.0335]],[[-117.5583,34.0335],[-117.5584,34.0249]],[[-117.5582,34.0703],[-117.5581,34.0628]],[[-117.5583,34.0335],[-117.5584,34.0249]]],"Jurupa St":[[[-117.6014,34.0483],[-117.5408,34.0483],[-117.53,34.048],[-117.5242,34.0468]]]},"loc":{"Brickell Privado":[[[-117.5498,34.0599],[-117.5512,34.0599]],[[-117.5498,34.0599],[-117.5512,34.0599]]],"Brickell St":[[[-117.5459,34.0593],[-117.5498,34.0596]],[[-117.5546,34.0591],[-117.5619,34.0591]]],"Auto Center Dr":[[[-117.543,34.0482],[-117.545,34.0477],[-117.5464,34.0466],[-117.5465,34.0451]],[[-117.5452,34.0571],[-117.5443,34.0563],[-117.545,34.049],[-117.543,34.0482]]],"Brentstone St":[[[-117.5605,34.0256],[-117.5622,34.0257],[-117.5671,34.027]]],"Burgundy Pl":[[[-117.5487,34.0335],[-117.5488,34.0346],[-117.5496,34.0358],[-117.5496,34.0387]]],"Excise Ave":[[[-117.5781,34.0429],[-117.5773,34.0414],[-117.5775,34.0404]]],"Ebony St":[[[-117.5676,34.0664],[-117.5689,34.0664]],[[-117.5676,34.0664],[-117.5689,34.0664]]],"Doubleday Ave":[[[-117.5654,34.0614],[-117.5654,34.0517],[-117.5643,34.0504],[-117.562,34.0499]]],"Dupont Ave":[[[-117.5629,34.041],[-117.5628,34.0462],[-117.562,34.0502],[-117.5619,34.0611],[-117.5622,34.0619]]],"Kettering Dr":[[[-117.5452,34.0571],[-117.5474,34.0528]],[[-117.5436,34.0627],[-117.5452,34.0571]]],"Greystone Dr":[[[-117.5584,34.0277],[-117.5673,34.0278]],[[-117.5584,34.0277],[-117.5671,34.0278]]],"Hudson Ave":[[[-117.5432,34.0452],[-117.5432,34.0479]]],"Lowell St":[[[-117.562,34.0518],[-117.5546,34.0518]]],"Pacific Privado":[[[-117.5582,34.0499],[-117.5594,34.0499]]],"Rochester Ave":[[[-117.5508,34.0409],[-117.5511,34.0335]],[[-117.5459,34.0627],[-117.5461,34.0583],[-117.5487,34.0527]],[[-117.5508,34.0409],[-117.5511,34.0335]]],"Sequoia Ave":[[[-117.5674,34.0638],[-117.5676,34.0664]],[[-117.5674,34.0638],[-117.5676,34.0664]]],"Ponderosa Ave":[[[-117.5689,34.0664],[-117.5691,34.0638]]],"Rockefeller Ave":[[[-117.5545,34.0628],[-117.5547,34.0505],[-117.5551,34.0482]]],"Vintage Ave":[[[-117.536,34.0554],[-117.5361,34.0481]],[[-117.533,34.0335],[-117.533,34.0481]]],"Wanamaker Pl":[[[-117.5495,34.0653],[-117.5495,34.0665]]],"Wanamaker Ave":[[[-117.5502,34.0532],[-117.5518,34.051],[-117.5547,34.0505]],[[-117.5502,34.0532],[-117.5518,34.051],[-117.5547,34.0505]],[[-117.5498,34.0627],[-117.5499,34.0546],[-117.5502,34.0532]]],"Vanderbilt St":[[[-117.5465,34.0451],[-117.5432,34.0452]]],"Zinfandel Ct":[[[-117.5496,34.0378],[-117.5487,34.0378]]],"Wall St":[[[-117.5546,34.0538],[-117.5522,34.0538],[-117.5487,34.0527]]]}}}</script>
+<script>
+const D=JSON.parse(document.getElementById('d').textContent);
+const NS='http://www.w3.org/2000/svg';
+const el=(t,a,p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;};
+const KX=Math.cos(34.04*Math.PI/180),S=10000,X=lon=>(lon+117.72)*KX*S,Y=lat=>(34.10-lat)*S,MI=S/69;
+const svg=document.getElementById('map'),world=el('g',{},svg);
+const gR=el('g',{},world),gN=el('g',{},world),gZ=el('g',{},world),gL=el('g',{},world);
+const pathD=p=>p.map((q,i)=>(i?'L':'M')+X(q[0]).toFixed(1)+' '+Y(q[1]).toFixed(1)).join('');
+const rds=[];
+for(const [n,ps] of Object.entries(D.roads.loc))for(const p of ps)rds.push(el('path',{d:pathD(p),fill:'none',stroke:'#dedcd5','stroke-linecap':'round','data-w':1.2},gR));
+for(const [n,ps] of Object.entries(D.roads.art))for(const p of ps)rds.push(el('path',{d:pathD(p),fill:'none',stroke:'var(--road)','stroke-linecap':'round','data-w':2},gR));
+for(const [n,ps] of Object.entries(D.roads.fw))for(const p of ps)rds.push(el('path',{d:pathD(p),fill:'none',stroke:'var(--fwy)','stroke-linecap':'round','data-w':4},gR));
+// labels along longest path of each named road
+const lbls=[];
+function addLabels(obj,fs,every){for(const [n,ps] of Object.entries(obj)){for(const p of ps){let acc=0,next=every*0.5;for(let i=1;i<p.length;i++){const x0=X(p[i-1][0]),y0=Y(p[i-1][1]),x1=X(p[i][0]),y1=Y(p[i][1]);const L=Math.hypot(x1-x0,y1-y0);while(acc+L>=next){const t=(next-acc)/L,x=x0+t*(x1-x0),y=y0+t*(y1-y0);let a=Math.atan2(y1-y0,x1-x0)*180/Math.PI;if(a>90)a-=180;if(a<-90)a+=180;const tx=el('text',{x,y,transform:`rotate(${a.toFixed(1)} ${x.toFixed(1)} ${y.toFixed(1)})`,'text-anchor':'middle',dy:'-3',class:'roadlbl'},gL);tx.textContent=n;tx.__fs=fs;tx.__ev=every;lbls.push(tx);next+=every;}acc+=L;}}}}
+const TIERS={art:[0.55,1.5,4],loc:[0.45,1.2]};for(const e of TIERS.art)addLabels(D.roads.art,10.5,MI*e);for(const e of TIERS.loc)addLabels(D.roads.loc,9,MI*e);
+const rFor=sf=>2.8+Math.sqrt(Math.max(sf||20000,15000)/125000)*4.2;
+const dots=[];
+for(const p of D.other){const c=el('circle',{cx:X(p[0]),cy:Y(p[1]),fill:'#c9c7c0'},gN);c.__r=2.6;dots.push(c);}
+const tip=document.getElementById('tip'),card=document.querySelector('.mapcard');
+for(const p of D.zone){const c=el('circle',{cx:X(p.lon),cy:Y(p.lat),fill:'var(--zc)',stroke:'#fff'},gZ);c.__r=rFor(p.sf);c.style.cursor='pointer';dots.push(c);
+ const show=ev=>{tip.innerHTML=`<b>${p.addr}</b><br>${p.sf?p.sf.toLocaleString()+' SF building':'Industrial building'}${p.x?`<br><span style="color:#777">${p.x}</span>`:''}`;tip.style.display='block';const r=card.getBoundingClientRect();let x=ev.clientX-r.left+12,y=ev.clientY-r.top+12;if(x+270>r.width)x-=280;tip.style.left=x+'px';tip.style.top=y+'px';};
+ c.addEventListener('mousemove',show);c.addEventListener('click',e=>{e.stopPropagation();show(e);});c.addEventListener('mouseleave',()=>tip.style.display='none');}
+svg.addEventListener('click',()=>tip.style.display='none');
+let k=1,tx=0,ty=0,base=1;
+const W=()=>svg.clientWidth,H=()=>svg.clientHeight;
+const xs=D.zone.map(p=>X(p.lon)),ys=D.zone.map(p=>Y(p.lat));
+const B={x0:Math.min(...xs),x1:Math.max(...xs),y0:Math.min(...ys),y1:Math.max(...ys)};
+function fit(){const pad=46;k=Math.min((W()-2*pad)/Math.max(B.x1-B.x0,60),(H()-2*pad)/Math.max(B.y1-B.y0,60));tx=(W()-(B.x1-B.x0)*k)/2-B.x0*k;ty=(H()-(B.y1-B.y0)*k)/2-B.y0*k;base=k;apply();}
+function apply(){world.setAttribute('transform',`translate(${tx},${ty}) scale(${k})`);
+ for(const r of rds)r.setAttribute('stroke-width',(+r.dataset.w)/k);
+ const z=Math.min(1.4,Math.max(.7,Math.pow(k/base,.3)));
+ for(const c of dots){c.setAttribute('r',c.__r*z/k);c.setAttribute('stroke-width',1/k);}
+ const pick=(arr,minpx)=>{for(const e of arr){if(k*MI*e>=minpx)return MI*e;}return null;};
+ const ea=pick(TIERS.art,170),el2=pick(TIERS.loc,200);
+ for(const t of lbls){t.style.fontSize=(t.__fs/k)+'px';t.style.strokeWidth=(3/k)+'px';const want=t.__fs>10?ea:el2;t.style.display=(want!==null&&Math.abs(t.__ev-want)<1e-6)?'':'none';}}
+fit();addEventListener('resize',fit);
+function zoomAt(f,cx,cy){const nk=Math.max(base*.35,Math.min(base*12,k*f));f=nk/k;tx=cx-(cx-tx)*f;ty=cy-(cy-ty)*f;k=nk;apply();}
+svg.addEventListener('wheel',e=>{e.preventDefault();const r=svg.getBoundingClientRect();zoomAt(Math.exp(-e.deltaY*.0015),e.clientX-r.left,e.clientY-r.top);},{passive:false});
+const P=new Map();let drag=null;
+svg.addEventListener('pointerdown',e=>{P.set(e.pointerId,[e.clientX,e.clientY]);if(P.size===1)drag={x:e.clientX,y:e.clientY,tx,ty};});
+svg.addEventListener('pointermove',e=>{if(!P.has(e.pointerId))return;const prev=P.get(e.pointerId);P.set(e.pointerId,[e.clientX,e.clientY]);
+ if(P.size===2){const v=[...P.values()],o=[...P.keys()];const a=v[0],b=v[1];const pa=o[0]===e.pointerId?prev:a,pb=o[1]===e.pointerId?prev:b;const d0=Math.hypot(pa[0]-pb[0],pa[1]-pb[1]),d1=Math.hypot(a[0]-b[0],a[1]-b[1]);const r=svg.getBoundingClientRect();if(d0)zoomAt(d1/d0,(a[0]+b[0])/2-r.left,(a[1]+b[1])/2-r.top);drag=null;return;}
+ if(drag){tx=drag.tx+e.clientX-drag.x;ty=drag.ty+e.clientY-drag.y;apply();}});
+const up=e=>{P.delete(e.pointerId);if(!P.size)drag=null;};svg.addEventListener('pointerup',up);svg.addEventListener('pointercancel',up);svg.addEventListener('pointerleave',up);
+document.getElementById('zin').onclick=()=>zoomAt(1.5,W()/2,H()/2);document.getElementById('zout').onclick=()=>zoomAt(1/1.5,W()/2,H()/2);
+</script>
+</body>
+</html>
